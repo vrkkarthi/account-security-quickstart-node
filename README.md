@@ -29,5 +29,9 @@ This app uses [MongoDB](https://www.mongodb.com/) as a data store. You will have
     - On *NIX, may be as easy as running `mongod` in a new tab.
 - Run `nodemon .` or `node .` from the cloned repo to run the app
 
-### License
-- MIT
+
+## Meta
+
+* No warranty expressed or implied. Software is as is. Diggity.
+* [MIT License](http://www.opensource.org/licenses/mit-license.html)
+* Lovingly crafted by Twilio Developer Education.
