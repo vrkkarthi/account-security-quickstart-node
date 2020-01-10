@@ -1,6 +1,8 @@
 ![Twilio Logo](./twilio_logo_red.png)
 # Twilio Account Security Quickstart - Twilio Authy and Twilio Verify
 
+> We are currently in the process of updating this sample template. If you are encountering any issues with the sample, please open an issue at [github.com/twilio-labs/code-exchange/issues](https://github.com/twilio-labs/code-exchange/issues) and we'll try to help you.
+
 A simple NodeJS and AngularJS implementation of a website that uses Twilio Account Security services to protect all assets within a folder with Two-factor authentication. Additionally, it shows a Verify Phone Verification implementation.
 
 It uses four channels for two-factor authentication delivery, SMS, Voice, Soft Tokens, and Push Notifications. You should have the [Authy App](https://authy.com/download/) installed to try Soft Token and Push Authentication support.
