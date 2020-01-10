@@ -7,6 +7,8 @@ It uses four channels for two-factor authentication delivery, SMS, Voice, Soft T
 
 This app uses [MongoDB](https://www.mongodb.com/) as a data store. You will have to install MongoDB as well and make sure it is running.
 
+Learn more about Account Security and when to use the Authy API vs the Verify API in the [Account Security documentation](https://www.twilio.com/docs/verify/authy-vs-verify).
+
 #### Authy Two-Factor Authentication Demo
 - URL path "/protected" is protected with both user session and Twilio Authy Two-Factor Authentication
 - One Time Passwords (SMS and Voice)
