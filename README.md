@@ -3,7 +3,9 @@
 
 > We are currently in the process of updating this sample template. If you are encountering any issues with the sample, please open an issue at [github.com/twilio-labs/code-exchange/issues](https://github.com/twilio-labs/code-exchange/issues) and we'll try to help you.
 
-A simple NodeJS and AngularJS implementation of a website that uses Twilio Account Security services to protect all assets within a folder with Two-factor authentication. Additionally, it shows a Verify Phone Verification implementation.
+![](https://github.com/TwilioDevEd/account-security-quickstart-node/workflows/Node.js/badge.svg)
+
+A simple NodeJS implementation of a website that uses Twilio Account Security services to protect all assets within a folder with Two-factor authentication. Additionally, it shows a Verify Phone Verification implementation.
 
 It uses four channels for two-factor authentication delivery, SMS, Voice, Soft Tokens, and Push Notifications. You should have the [Authy App](https://authy.com/download/) installed to try Soft Token and Push Authentication support.
 
@@ -28,14 +30,14 @@ Learn more about Account Security and when to use the Authy API vs the Verify AP
 - Setup an Account Security app via the [Twilio Console](https://twilio.com/console).
 - Grab an Authy API key from the Dashboard and paste it in `.env.example`
 - Save the `.env.example` file as `.env`
-- `source .env` to add the environmental variables
 - Check and make sure MongoDB is up and running
     - On *NIX, may be as easy as running `mongod` in a new tab.
-- Run `nodemon .` or `node .` from the cloned repo to run the app
-
+- Run `npm start` from the cloned repo to run the app
+- Navigate to `http://localhost:3000`
 
 ## Meta
 
 * No warranty expressed or implied. Software is as is. Diggity.
+* The CodeExchange repository can be found [here](https://github.com/twilio-labs/code-exchange/).
 * [MIT License](http://www.opensource.org/licenses/mit-license.html)
 * Lovingly crafted by Twilio Developer Education.
