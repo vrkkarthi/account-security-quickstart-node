@@ -175,3 +175,5 @@ app.all('/2fa/*', requireLogin, function (req, res, next) {
  */
 app.use('/api', router);
 app.use('/', express.static(__dirname + '/public'));
+
+module.exports = app;

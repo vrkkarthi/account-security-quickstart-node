@@ -77,7 +77,7 @@ PhoneVerification.prototype._request = function (type, path, params, callback, q
     console.log(options.url);
 
     var callback_check = function (response) {
-        if (res.status === 200) {
+        if (response.status === 200) {
             return callback(null, response.data);
         }
         throw response;
@@ -86,7 +86,7 @@ PhoneVerification.prototype._request = function (type, path, params, callback, q
     switch (type) {
         case "post":
             axios
-                .post(url, params, options)
+                .post(options.url, params, options)
                 .then(callback_check)
                 .catch(function(err) {
                     callback(err.data || err)
@@ -95,7 +95,7 @@ PhoneVerification.prototype._request = function (type, path, params, callback, q
 
         case "get":
             axios
-                .get(url, options)
+                .get(options.url, options)
                 .then(callback_check)
                 .catch(function (err) {
                     callback(err.data || err);
